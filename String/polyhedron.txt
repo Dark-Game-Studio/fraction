@@ -1,0 +1,37 @@
+POLYHEDRON CALCULATOR - Unit Sphere (R = 1)
+===========================================
+
+Tetrahedron:
+  Edge Length:  1.632993
+  Volume:       0.513200
+  Surface:      4.618802
+  Vol Ratio:    0.1225 (12.25%)
+  Surf Ratio:   0.3675 (36.75%)
+
+Cube:
+  Edge Length:  1.154701
+  Volume:       1.539601
+  Surface:      8.000000
+  Vol Ratio:    0.3676 (36.76%)
+  Surf Ratio:   0.6366 (63.66%)
+
+Octahedron:
+  Edge Length:  1.414214
+  Volume:       1.333333
+  Surface:      6.928203
+  Vol Ratio:    0.3183 (31.83%)
+  Surf Ratio:   0.5513 (55.13%)
+
+Dodecahedron:
+  Edge Length:  0.713644
+  Volume:       2.785164
+  Surface:      10.514622
+  Vol Ratio:    0.6650 (66.50%)
+  Surf Ratio:   0.8367 (83.67%)
+
+Icosahedron:
+  Edge Length:  1.051462
+  Volume:       2.536151
+  Surface:      9.574541
+  Vol Ratio:    0.6055 (60.55%)
+  Surf Ratio:   0.7619 (76.19%)
