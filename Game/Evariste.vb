@@ -81,4 +81,5 @@ a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = TwoThreeTwo
 a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = ThreeFourThree
 a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = FourFiveFour
 a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = FiveSixFive
+End Class
 End Sub
