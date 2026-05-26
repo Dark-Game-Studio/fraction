@@ -2,35 +2,31 @@ Imports System.Math
 Declare Module X{}
 Declare Module Y{}
 Declare Module Z{}
-Module Triangle
-    Sub Main()
-        Dim Edge As Double = Edge
+            
+Sub Triangle()
+    Dim Edge As Double = Edge
         Dim Dot1 As New Rect(Edge, Edge)
         Dim Dot2 As New Rect(-sqrt(3)/2*Edge, 0)
-        Dim Dot3 As New Rect(0, -sqrt(3)/2*Edge)
-    End Sub
-End Module
+        Dim Dot3 As New Rect(0, -sqrt(3)/2Edge)
+End Sub
 
-Module Square
-    Sub Main()
-        Dim Edge As Double = Edge
+
+Sub Square()
+    Dim Edge As Double = Edge
         Dim Dot4 As New Line(Edge, -Edge)
         Dim Dot5 As New Line(-Edge, Edge)
         Dim Dot6 As New Line(Edge, Edge)
         Dim Dot7 As New Line(-Edge,-Edge)
-    End Sub
-End Module
+End Sub
 
-Module Pentagon
-    Sub Main()
-        Dim Edge As Single
+Sub Pentagon()
+    Dim Edge As Single
         Dim Dot8 As New Dot(72, 0, 0)
         Dim Dot9 As New Dot(144,0, 0)
         Dim Dot10 As New Dot(216,0, 0)
         Dim Dot11 As New Dot(288,0, 0)
         Dim Dot12 As New Dot(360,0, 0)
 End Sub
-End Module
 
 Default Function 345()
 Triangle ^ 2 + Square ^ 2 == Pentagon ^ 2
