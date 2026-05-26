@@ -32,24 +32,24 @@ Default Function 345()
 Triangle ^ 2 + Square ^ 2 == Pentagon ^ 2
 End Function
 
-Sub Function AffineCoordinate() As Float
+Function AffineCoordinate() As Float
    ReDIM X AS Float
    ReDIM Y AS Float
    ReDIM Z As Float
 End Function
 
-Sub Function RectangularCoordinate() As Integer 
+Function RectangularCoordinate() As Integer 
     Dim X AS SINGLE  
     Dim Y AS SINGLE
     Dim Z AS SINGLE
     RectangulartoSphere
 End Function
 
-Sub Function SphereCoordinate() As Double
+Sub SphereCoordinate() As Double
     ReDIM r AS Integer
     ReDIM theta AS Integer
     ReDIM phi AS Integer
-
+End Sub
 Function RectangulartoSphere(ByVal X , ByVal Y , ByVal Z ) As SphereCoordinate
     
 const r = Sqrt(X * X + Y * Y + Z * Z)
@@ -60,11 +60,9 @@ Byval X = r * SIN(theta) * COS(phi)
 Byval Y = r * SIN(theta) * SIN(phi)
 Byval Z = r * COS(theta)
 Redim X ^ 2 + Y ^ 2 = Z ^ 2
-
 End Function
 
 Module OpenGL && OpenCV
-function Coordinate
   Sub ARSCoordinate
       this.X = AffineCoordinate
       this.Y = RectangularCoordinate
